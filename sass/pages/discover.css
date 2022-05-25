@@ -1,0 +1,511 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Great+Vibes&family=Italianno&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:wght@400;500;700;800&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+}
+
+::-moz-selection {
+  color: wheat;
+  background: #767676;
+}
+
+::selection {
+  color: wheat;
+  background: #767676;
+}
+
+*,
+html {
+  scroll-behavior: smooth !important;
+}
+
+#loader {
+  border: 12px solid wheat;
+  border-radius: 50%;
+  border-top: 12px solid #202020;
+  width: 70px;
+  height: 70px;
+  -webkit-animation: spin 1s linear infinite;
+          animation: spin 1s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.center {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.c {
+  overflow-x: hidden;
+  height: 100vh;
+}
+
+.c section {
+  min-height: 100vh;
+}
+
+.c section:nth-of-type(1) {
+  position: relative;
+  background: #1d1d1c;
+  background: url(/imgs/car8.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-position: center;
+}
+
+.c section:nth-of-type(1) .ox2 {
+  font-size: 10vw;
+  color: white;
+  text-shadow: 3px 3px 3px black;
+  font-family: "italiano";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.c section:nth-of-type(1) .demo a {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  z-index: 2;
+  display: inline-block;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: #fff;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+}
+
+.c section:nth-of-type(1) .demo a:hover {
+  opacity: 0.5;
+}
+
+.c section:nth-of-type(1) #section05 a {
+  padding-top: 70px;
+}
+
+.c section:nth-of-type(1) #section05 a span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-animation: sdb05 1.5s infinite;
+  animation: sdb05 1.5s infinite;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@-webkit-keyframes sdb05 {
+  0% {
+    -webkit-transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: rotate(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
+}
+
+@keyframes sdb05 {
+  0% {
+    -webkit-transform: rotate(-45deg) translate(0, 0);
+            transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: rotate(-45deg) translate(-20px, 20px);
+            transform: rotate(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
+}
+
+.c section:nth-of-type(1) .nav2 {
+  background: rgba(255, 255, 255, 0.705);
+}
+
+.c section:nth-of-type(1) .nav2 a {
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  font-size: 1.3rem;
+  font-weight: 300;
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
+}
+
+.c section:nth-of-type(1) .nav2 a:hover {
+  color: #f7c364;
+  font-weight: 400;
+  text-shadow: 2px 2px 2px black;
+}
+
+.c section:nth-of-type(1) .nav2 a:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #4d3503;
+  -webkit-transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+.c section:nth-of-type(1) .nav2 a:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+.c section:nth-of-type(1) .nav2 button {
+  letter-spacing: 0.1em;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+
+.c section:nth-of-type(1) .nav2 button:hover {
+  color: wheat;
+}
+
+.c section:nth-of-type(1) .nav2 ul a {
+  color: black;
+}
+
+.c section:nth-of-type(1) .nav2 ul a:hover {
+  color: black;
+  background: gray;
+}
+
+.c section:nth-of-type(2) {
+  color: white;
+  background-color: black;
+  position: relative;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.c section:nth-of-type(2) .se2 {
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.c section:nth-of-type(2) .se2 p {
+  background: #524949;
+  height: 100%;
+  width: 30%;
+}
+
+.c section:nth-of-type(2) .se2 img {
+  height: 100%;
+  width: 70%;
+}
+
+.c section:last-child {
+  min-height: -webkit-fit-content;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
+  background: #313131;
+  border-bottom: 20px #363535 double;
+}
+
+.c section:last-child h1 {
+  color: wheat;
+  font-family: "Italianno", cursive;
+}
+
+.c section:last-child a {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+.c section:last-child a:hover {
+  color: wheat;
+}
+
+.c section:last-child p {
+  color: white;
+}
+
+.c section:last-child .d-up {
+  z-index: 1;
+}
+
+.c section:last-child .d-up ul {
+  background: #434341 !important;
+  border: 4px solid white;
+}
+
+.c section:last-child .d-up ul li a {
+  color: white !important;
+}
+
+.c section:last-child .d-up ul li a:hover {
+  color: wheat;
+  background: #6a6a6a !important;
+}
+
+.c section:last-child .socialMedia a {
+  cursor: default;
+}
+
+.c section:last-child .socialMedia a:hover {
+  color: white;
+}
+
+.c section:last-child .socialMedia a i {
+  font-size: 32px;
+  cursor: pointer;
+}
+
+.c section:last-child .socialMedia a i:hover {
+  color: wheat;
+}
+
+.c section .vehicles img {
+  border: 2px wheat solid;
+  -webkit-box-shadow: 1px 1px 1px wheat;
+          box-shadow: 1px 1px 1px wheat;
+}
+
+.modal-header {
+  border-bottom: wheat 1px solid;
+}
+
+.modal-footer {
+  border-top: 1px wheat solid;
+}
+
+.modal-content {
+  background: #000000;
+}
+
+.carousel-item img {
+  border: 2px wheat solid;
+}
+
+.carousel-inner {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 80vh;
+}
+
+.contact-form {
+  width: 600px;
+}
+
+.contact-form #country {
+  background: #333;
+  border: none;
+}
+
+.contact-form input {
+  background: #333;
+  padding: 10px;
+  margin-bottom: 50px;
+  border: none;
+  border-bottom: 1px solid white;
+}
+
+.contact-form input:focus {
+  outline: none;
+  border-bottom: 1px solid wheat;
+}
+
+.contact-form input::-webkit-input-placeholder {
+  color: white;
+}
+
+.contact-form input:-ms-input-placeholder {
+  color: white;
+}
+
+.contact-form input::-ms-input-placeholder {
+  color: white;
+}
+
+.contact-form input::placeholder {
+  color: white;
+}
+
+.contact-form .submit {
+  color: black;
+  background: wheat;
+}
+
+.contact-form .submit:hover {
+  color: #292828;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+  z-index: 1111;
+}
+
+.popup {
+  background: #1d1d1c;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  -webkit-transition: all ease-in-out;
+  transition: all ease-in-out;
+}
+
+.popup h2 {
+  color: white;
+}
+
+.popup .close {
+  font-size: 60px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+  border: 5px wheat solid;
+  border-radius: 50%;
+  padding: 0 15px;
+}
+
+.popup .close:hover {
+  color: white;
+}
+
+@media (max-width: 767.98px) {
+  .c section:nth-of-type(1) .nav2 a {
+    font-size: 0.9rem;
+  }
+  .c section:nth-of-type(1) .nav2 button {
+    font-size: 1rem;
+    font-family: 300;
+  }
+  .c section .about img {
+    width: 75%;
+  }
+}
+
+button.accordion {
+  width: 100%;
+  background-color: #575757;
+  border: none;
+  outline: none;
+  text-align: left;
+  padding: 15px 20px;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+  -webkit-transition: background-color 0.2s linear;
+  transition: background-color 0.2s linear;
+}
+
+button.accordion:after {
+  content: "\f055";
+  font-family: "fontawesome";
+  font-size: 14px;
+  float: right;
+}
+
+button.accordion.is-open:after {
+  content: "\f056";
+}
+
+button.accordion:hover,
+button.accordion.is-open {
+  background-color: #2c2626;
+  color: wheat;
+}
+
+.accordion-content {
+  text-align: start;
+  background-color: #1a1a1a;
+  padding: 0 20px;
+  max-height: 0;
+  overflow: hidden;
+  -webkit-transition: max-height 0.2s ease-in-out;
+  transition: max-height 0.2s ease-in-out;
+}
+
+.accordion-content p {
+  color: white !important;
+  padding: 30px 0;
+}
+/*# sourceMappingURL=discover.css.map */

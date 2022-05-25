@@ -1,0 +1,283 @@
+.c {
+  h1 {
+    font-size: clamp(2rem, 10vw, 3.3rem);
+  }
+  // scroll-snap-type: y mandatory;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  height: 100vh;
+
+  section {
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    position: relative;
+    height: fit-content;
+
+    .se2 {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      text-align: center;
+      align-items: center;
+      p {
+        font-family: "Italianno", cursive;
+        font-size: 4.4vmin;
+        width: 50%;
+        color: white;
+      }
+      img {
+        width: 50%;
+        max-width: 700px;
+        border: 3px rgb(255, 255, 255) solid;
+      }
+    }
+    @media (max-width: 767.98px) {
+      .se2 {
+        p {
+          font-size: 7vmin;
+          width: 80%;
+        }
+        img {
+          width: 80%;
+        }
+      }
+    }
+
+    &:nth-of-type(1) {
+      background-size: cover;
+      background-position: center;
+
+      nav {
+        h1 {
+          color: aliceblue;
+          text-shadow: 3px 3px 1px black;
+          font-family: "Montserrat", sans-serif !important;
+          font-weight: 500;
+        }
+      }
+      .nav2 {
+        background: rgba(255, 255, 255, 0.171);
+        a {
+          color: #fff;
+          text-transform: uppercase;
+          text-decoration: none;
+          letter-spacing: 0.15em;
+          font-size: 1.3rem;
+          font-weight: 300;
+          display: inline-block;
+          padding: 15px 20px;
+          position: relative;
+          &:hover {
+            color: wheat;
+          }
+        }
+        a:after {
+          background: none repeat scroll 0 0 transparent;
+          bottom: 0;
+          content: "";
+          display: block;
+          height: 2px;
+          left: 50%;
+          position: absolute;
+          background: #fff;
+          transition: width 0.3s ease 0s, left 0.3s ease 0s;
+          width: 0;
+        }
+        a:hover:after {
+          width: 100%;
+          left: 0;
+        }
+        button {
+          letter-spacing: 0.1em;
+          color: white;
+          font-size: 1.3rem;
+          font-weight: 300;
+          &:hover {
+            color: wheat;
+          }
+        }
+        ul {
+          a {
+            color: black;
+            &:hover {
+              color: rgb(0, 0, 0);
+              background: gray;
+            }
+          }
+        }
+      }
+      .discover {
+        a {
+          text-decoration: none;
+          background: white;
+          color: rgb(0, 0, 0);
+          padding: 8px;
+          border: 1px outset rgb(136, 135, 135);
+          border-radius: 20px;
+          transition: 0.4s ease-in-out;
+          font-family: "Montserrat", sans-serif !important;
+          font-family: "Black Ops One", cursive;
+          font-family: "Poppins", sans-serif;
+          font-weight: 200;
+
+          &:hover {
+            color: wheat;
+            background: black;
+            border-radius: 20px;
+          }
+        }
+      }
+
+      #myVideo {
+        top: 0;
+        height: 100vh;
+        width: 100%;
+        background-position: absolute;
+        z-index: -1;
+        object-fit: cover;
+        position: absolute;
+      }
+    }
+    &:nth-of-type(2) {
+      background: rgb(29, 29, 28);
+      background-color: #262f44;
+      color: rgb(255, 255, 255);
+      p {
+        span {
+          color: wheat;
+        }
+      }
+    }
+
+    &:nth-of-type(3) {
+      background: rgb(0, 0, 0);
+      border-top: 1px rgb(255, 255, 255) double;
+      align-items: center;
+      text-align: center;
+      .dc {
+        padding-top: 10vh;
+      }
+
+      h1 {
+        color: wheat;
+        font-family: "Italianno", cursive;
+      }
+      .sheshz {
+        width: 60%;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+      }
+      .sheimg {
+        img {
+          width: 100%;
+          height: 60vh;
+        }
+      }
+      @media (max-width: 501px) {
+        .sheshz {
+          width: 90%;
+        }
+      }
+      .carousel-item {
+        img {
+          border: 2px rgb(255, 255, 255) solid;
+        }
+      }
+    }
+    &:last-child {
+      height: fit-content;
+      background: #000000;
+      border-top: 2px rgb(255, 255, 255) solid;
+      min-height: 500px;
+
+      h1 {
+        color: wheat;
+        font-family: "Italianno", cursive;
+      }
+      a {
+        color: rgb(255, 255, 255);
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        &:hover {
+          color: wheat;
+        }
+      }
+      p {
+        color: white;
+      }
+      .d-up {
+        z-index: 1;
+        ul {
+          background: rgb(67, 67, 65) !important;
+          border: 4px solid white;
+
+          li {
+            a {
+              color: rgb(255, 255, 255) !important;
+              &:hover {
+                color: wheat;
+                background: rgb(106, 106, 106) !important;
+              }
+            }
+          }
+        }
+      }
+      .socialMedia {
+        a {
+          cursor: default;
+          &:hover {
+            color: white;
+          }
+          i {
+            font-size: 32px;
+            cursor: pointer;
+            &:hover {
+              color: wheat;
+            }
+          }
+        }
+      }
+    }
+    @media (max-width: 300.98px) {
+      .se2 {
+        span {
+          font-size: 3rem !important;
+        }
+        p {
+          font-size: 2rem;
+        }
+        img {
+          width: 100%;
+        }
+      }
+      &:nth-of-type(3) {
+        background-color: rgb(15, 15, 13);
+      }
+    }
+  }
+}
+
+@media (max-width: 767.98px) {
+  .c section:nth-of-type(1) .nav2 a {
+    font-size: 0.9rem;
+  }
+  .c section:nth-of-type(1) .nav2 button {
+    font-size: 1rem;
+    font-family: 300;
+  }
+  .c section .about img {
+    width: 75%;
+  }
+}
+@media (min-width: 767.98px) {
+  .c {
+    scroll-snap-type: y mandatory;
+  }
+  section {
+    scroll-behavior: smooth;
+    scroll-snap-align: end;
+  }
+}

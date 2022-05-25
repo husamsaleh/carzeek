@@ -1,0 +1,270 @@
+.c {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  height: 100vh;
+}
+.c h1 {
+  font-size: clamp(2rem, 10vw, 3.3rem);
+}
+.c section {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  position: relative;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.c section .se2 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.c section .se2 p {
+  font-family: "Italianno", cursive;
+  font-size: 4.4vmin;
+  width: 50%;
+  color: white;
+}
+.c section .se2 img {
+  width: 50%;
+  max-width: 700px;
+  border: 3px white solid;
+}
+@media (max-width: 767.98px) {
+  .c section .se2 p {
+    font-size: 7vmin;
+    width: 80%;
+  }
+  .c section .se2 img {
+    width: 80%;
+  }
+}
+.c section:nth-of-type(1) {
+  background-size: cover;
+  background-position: center;
+}
+.c section:nth-of-type(1) nav h1 {
+  color: aliceblue;
+  text-shadow: 3px 3px 1px black;
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 500;
+}
+.c section:nth-of-type(1) .nav2 {
+  background: rgba(255, 255, 255, 0.171);
+}
+.c section:nth-of-type(1) .nav2 a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  font-size: 1.3rem;
+  font-weight: 300;
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
+}
+.c section:nth-of-type(1) .nav2 a:hover {
+  color: wheat;
+}
+.c section:nth-of-type(1) .nav2 a:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  -webkit-transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.c section:nth-of-type(1) .nav2 a:hover:after {
+  width: 100%;
+  left: 0;
+}
+.c section:nth-of-type(1) .nav2 button {
+  letter-spacing: 0.1em;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+.c section:nth-of-type(1) .nav2 button:hover {
+  color: wheat;
+}
+.c section:nth-of-type(1) .nav2 ul a {
+  color: black;
+}
+.c section:nth-of-type(1) .nav2 ul a:hover {
+  color: black;
+  background: gray;
+}
+.c section:nth-of-type(1) .discover a {
+  text-decoration: none;
+  background: white;
+  color: black;
+  padding: 8px;
+  border: 1px outset #888787;
+  border-radius: 20px;
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+  font-family: "Montserrat", sans-serif !important;
+  font-family: "Black Ops One", cursive;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+}
+.c section:nth-of-type(1) .discover a:hover {
+  color: wheat;
+  background: black;
+  border-radius: 20px;
+}
+.c section:nth-of-type(1) #myVideo {
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  background-position: absolute;
+  z-index: -1;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+}
+.c section:nth-of-type(2) {
+  background: #1d1d1c;
+  background-color: #262f44;
+  color: white;
+}
+.c section:nth-of-type(2) p span {
+  color: wheat;
+}
+.c section:nth-of-type(3) {
+  background: black;
+  border-top: 1px white double;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+.c section:nth-of-type(3) .dc {
+  padding-top: 10vh;
+}
+.c section:nth-of-type(3) h1 {
+  color: wheat;
+  font-family: "Italianno", cursive;
+}
+.c section:nth-of-type(3) .sheshz {
+  width: 60%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin: auto;
+}
+.c section:nth-of-type(3) .sheimg img {
+  width: 100%;
+  height: 60vh;
+}
+@media (max-width: 501px) {
+  .c section:nth-of-type(3) .sheshz {
+    width: 90%;
+  }
+}
+.c section:nth-of-type(3) .carousel-item img {
+  border: 2px white solid;
+}
+.c section:last-child {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background: #000000;
+  border-top: 2px white solid;
+  min-height: 500px;
+}
+.c section:last-child h1 {
+  color: wheat;
+  font-family: "Italianno", cursive;
+}
+.c section:last-child a {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+.c section:last-child a:hover {
+  color: wheat;
+}
+.c section:last-child p {
+  color: white;
+}
+.c section:last-child .d-up {
+  z-index: 1;
+}
+.c section:last-child .d-up ul {
+  background: #434341 !important;
+  border: 4px solid white;
+}
+.c section:last-child .d-up ul li a {
+  color: white !important;
+}
+.c section:last-child .d-up ul li a:hover {
+  color: wheat;
+  background: #6a6a6a !important;
+}
+.c section:last-child .socialMedia a {
+  cursor: default;
+}
+.c section:last-child .socialMedia a:hover {
+  color: white;
+}
+.c section:last-child .socialMedia a i {
+  font-size: 32px;
+  cursor: pointer;
+}
+.c section:last-child .socialMedia a i:hover {
+  color: wheat;
+}
+@media (max-width: 300.98px) {
+  .c section .se2 span {
+    font-size: 3rem !important;
+  }
+  .c section .se2 p {
+    font-size: 2rem;
+  }
+  .c section .se2 img {
+    width: 100%;
+  }
+  .c section:nth-of-type(3) {
+    background-color: #0f0f0d;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .c section:nth-of-type(1) .nav2 a {
+    font-size: 0.9rem;
+  }
+
+  .c section:nth-of-type(1) .nav2 button {
+    font-size: 1rem;
+    font-family: 300;
+  }
+
+  .c section .about img {
+    width: 75%;
+  }
+}
+@media (min-width: 767.98px) {
+  .c {
+    -ms-scroll-snap-type: y mandatory;
+        scroll-snap-type: y mandatory;
+  }
+
+  section {
+    scroll-behavior: smooth;
+    scroll-snap-align: end;
+  }
+}
+/*# sourceMappingURL=main.css.map */

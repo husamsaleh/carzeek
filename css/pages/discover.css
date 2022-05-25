@@ -1,0 +1,195 @@
+.c {
+  overflow-x: hidden;
+  height: 100vh;
+}
+.c section {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  position: relative;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.c section .se2 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.c section .se2 p {
+  font-family: "Italianno", cursive;
+  font-size: 4.4vmin;
+  width: 50%;
+  color: white;
+}
+.c section .se2 img {
+  width: 50%;
+  max-width: 700px;
+  border: 5px white outset;
+}
+@media (max-width: 767.98px) {
+  .c section .se2 p {
+    font-size: 7vmin;
+    width: 80%;
+  }
+  .c section .se2 img {
+    width: 80%;
+  }
+}
+.c section:nth-of-type(1) {
+  position: relative;
+  background: #1d1d1c;
+  background: url(/imgs/car8.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.c section:nth-of-type(1) .ox2 {
+  font-size: 10vw;
+  color: white;
+  text-shadow: 3px 3px 3px black;
+  font-family: "italiano";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.c section:nth-of-type(1) .nav2 {
+  background: rgba(255, 255, 255, 0.705);
+}
+.c section:nth-of-type(1) .nav2 a {
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  font-size: 1.3rem;
+  font-weight: 300;
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
+}
+.c section:nth-of-type(1) .nav2 a:hover {
+  color: #f7c364;
+  font-weight: 400;
+  text-shadow: 2px 2px 2px black;
+}
+.c section:nth-of-type(1) .nav2 a:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #4d3503;
+  -webkit-transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.c section:nth-of-type(1) .nav2 a:hover:after {
+  width: 100%;
+  left: 0;
+}
+.c section:nth-of-type(1) .nav2 button {
+  letter-spacing: 0.1em;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+.c section:nth-of-type(1) .nav2 button:hover {
+  color: wheat;
+}
+.c section:nth-of-type(1) .nav2 ul a {
+  color: black;
+}
+.c section:nth-of-type(1) .nav2 ul a:hover {
+  color: black;
+  background: gray;
+}
+.c section:nth-of-type(2) {
+  color: white;
+  background-color: #000000;
+}
+.c section:nth-of-type(3) {
+  background: #000000;
+  scroll-behavior: smooth;
+  min-height: -webkit-fit-content;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
+}
+.c section:nth-of-type(3) .cbx {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+.c section:last-child {
+  background: #000000;
+  min-height: 500px;
+}
+.c section:last-child h1 {
+  color: wheat;
+  font-family: "Italianno", cursive;
+}
+.c section:last-child a {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+.c section:last-child a:hover {
+  color: wheat;
+}
+.c section:last-child p {
+  color: white;
+}
+.c section:last-child .d-up {
+  z-index: 1;
+}
+.c section:last-child .d-up ul {
+  background: #434341 !important;
+  border: 4px solid white;
+}
+.c section:last-child .d-up ul li a {
+  color: white !important;
+}
+.c section:last-child .d-up ul li a:hover {
+  color: wheat;
+  background: #6a6a6a !important;
+}
+.c section:last-child .socialMedia a {
+  cursor: default;
+}
+.c section:last-child .socialMedia a:hover {
+  color: white;
+}
+.c section:last-child .socialMedia a i {
+  font-size: 32px;
+  cursor: pointer;
+}
+.c section:last-child .socialMedia a i:hover {
+  color: wheat;
+}
+.c section .vehicles img {
+  border: 2px wheat solid;
+  -webkit-box-shadow: 1px 1px 1px wheat;
+          box-shadow: 1px 1px 1px wheat;
+}
+
+@media (max-width: 767.98px) {
+  .c section:nth-of-type(1) .nav2 a {
+    font-size: 0.9rem;
+  }
+
+  .c section:nth-of-type(1) .nav2 button {
+    font-size: 1rem;
+    font-family: 300;
+  }
+
+  .c section .about img {
+    width: 75%;
+  }
+}
