@@ -252,6 +252,10 @@
   .c section .about img {
     width: 75%;
   }
+
+  .discover {
+    padding-bottom: 10%;
+  }
 }
 @media (min-width: 767.98px) {
   .c {
