@@ -155,12 +155,12 @@
   font-family: "Italianno", cursive;
 }
 .c section:nth-of-type(3) .sheshz {
+  padding-top: 10vh;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
   margin: auto;
-  padding-top: 10vh;
 }
 .c section:nth-of-type(3) .sheimg img {
   width: 100%;
@@ -168,11 +168,7 @@
 }
 @media (max-width: 501px) {
   .c section:nth-of-type(3) .sheshz {
-    width: 100%;
-  }
-  .c section:nth-of-type(3) .sheshz img {
-    width: 400px;
-    height: 300px;
+    width: 90%;
   }
 }
 .c section:nth-of-type(3) .carousel-item img {

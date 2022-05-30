@@ -162,10 +162,11 @@
         font-family: "Italianno", cursive;
       }
       .sheshz {
+        padding-top: 10vh;
+
         align-items: center;
         text-align: center;
         margin: auto;
-        padding-top: 10vh;
       }
       .sheimg {
         img {
@@ -175,11 +176,7 @@
       }
       @media (max-width: 501px) {
         .sheshz {
-          width: 100%;
-          img {
-            width: 400px;
-            height: 300px;
-          }
+          width: 90%;
         }
       }
       .carousel-item {
