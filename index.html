@@ -39,7 +39,7 @@
   <body class="body">
     <div id="loader" class="center"></div>
     <div class="c">
-      <!-- section starts -->
+      <!-- section 1 starts -->
       <section
         class="d-flex align-items-center text-center align-content-center flex-column justify-content-between"
       >
@@ -67,7 +67,7 @@
           </h2>
         </div>
       </section>
-      <!-- section starts -->
+      <!-- section 2 starts -->
       <section>
         <div class="se2 d-flex flex-column flex-md-row container flex-reverse">
           <p>
@@ -79,13 +79,13 @@
           <img class="mx-2" src="./imgs/rol700.jpg" alt="" />
         </div>
       </section>
-      <!-- section starts -->
+      <!-- section 3 starts -->
       <section>
-        <div class="dc sheshz">
+        <div class="sheshz">
           <h1>Quality is everything</h1>
           <div
             id="carouselExampleIndicators"
-            class="carousel slide container"
+            class="carousel slide container bcc"
             data-bs-ride="carousel"
           >
             <div class="carousel-indicators">
@@ -791,11 +791,13 @@
       document.onreadystatechange = function () {
         if (document.readyState !== "complete") {
           document.querySelector("body").style.visibility = "hidden";
+          document.querySelector(".discover").style.display = "none";
           document.querySelector("body").style.backgroundColor = "black";
           document.querySelector("#loader").style.visibility = "visible";
         } else {
           document.querySelector("#loader").style.display = "none";
           document.querySelector("body").style.visibility = "visible";
+          document.querySelector(".discover").style.display = "block";
         }
       };
     </script>

@@ -161,12 +161,14 @@
         color: wheat;
         font-family: "Italianno", cursive;
       }
+      .bcc {
+        width: 50%;
+      }
       .sheshz {
         padding-top: 10vh;
 
         align-items: center;
         text-align: center;
-        margin: auto;
       }
       .sheimg {
         img {
@@ -175,8 +177,13 @@
         }
       }
       @media (max-width: 501px) {
-        .sheshz {
-          width: 90%;
+        .bcc {
+          width: 100%;
+          padding-bottom: 50px;
+          img {
+            width: 100%;
+            height: 200px;
+          }
         }
       }
       .carousel-item {
@@ -270,7 +277,13 @@
     width: 75%;
   }
   .discover {
-    padding-bottom: 10%;
+    padding-bottom: 15%;
+  }
+  .c section:nth-of-type(3) {
+    min-height: fit-content;
+    h1 {
+      font-size: 52px;
+    }
   }
 }
 @media (min-width: 767.98px) {
