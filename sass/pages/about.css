@@ -93,7 +93,7 @@ html {
 
 .c section:nth-of-type(1) {
   background: #1d1d1c;
-  background: url(/imgs/mont-bg.jpg);
+  background: url(../../imgs/mont-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: -webkit-fit-content;
