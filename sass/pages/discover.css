@@ -70,7 +70,7 @@ html {
 .c section:nth-of-type(1) {
   position: relative;
   background: #1d1d1c;
-  background: url(/imgs/car8.jpg);
+  background: url(../../imgs/car8.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: -webkit-fit-content;
