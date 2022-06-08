@@ -11,9 +11,9 @@
   height: fit-content;
 }
 .c section:nth-of-type(1) {
-  background: -webkit-gradient(linear, left top, right bottom, from(black), color-stop(60%, #3d474e));
-  background: linear-gradient(to bottom right, black, #3d474e 60%);
-  background: url(../../imgs/mbg.jpg);
+  background: -webkit-gradient(linear, left top, right bottom, from(rgb(0, 0, 0)), color-stop(60%, #3d474e));
+  background: linear-gradient(to bottom right, rgb(0, 0, 0), #3d474e 60%);
+  background: url(/imgs/mbg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: -webkit-fit-content;
@@ -40,7 +40,7 @@
   position: relative;
 }
 .c section:nth-of-type(1) .nav2 a:hover {
-  color: black;
+  color: rgb(0, 0, 0);
 }
 .c section:nth-of-type(1) .nav2 a:after {
   background: none repeat scroll 0 0 transparent;
@@ -72,7 +72,7 @@
   color: black;
 }
 .c section:nth-of-type(1) .nav2 ul a:hover {
-  color: black;
+  color: rgb(0, 0, 0);
   background: gray;
 }
 .c section:nth-of-type(1) .discover {
@@ -90,8 +90,8 @@
 }
 .c section:nth-of-type(1) .discover a {
   text-decoration: none;
-  background: black;
-  color: white;
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   padding: 8px;
   border: 1px outset wheat;
   border-radius: 20px;
@@ -105,7 +105,7 @@
 }
 .c section:nth-of-type(1) .discover a:hover {
   color: wheat;
-  background: #2b2b2b;
+  background: rgb(43, 43, 43);
   border-radius: 20px;
 }
 .c section:nth-of-type(1) .ourStroy {
@@ -131,7 +131,7 @@
 }
 .c section:nth-of-type(1) .ourStroy .txto h2 {
   font-weight: 400;
-  font-size: 5vmax;
+  font-size: 72px;
   font-family: "Italianno", sans-serif;
 }
 .c section:nth-of-type(1) .ourStroy .txto p {
@@ -151,7 +151,10 @@
 @media (max-width: 300px) {
   .c section:nth-of-type(1) .discover {
     position: relative;
-    margin-top: 9px;
+    margin-top: 70px;
+  }
+  .c section:nth-of-type(1) .txto h2 {
+    font-size: 50px !important;
   }
 }
 .c section:nth-of-type(2) {
@@ -186,7 +189,7 @@
 }
 .c section:nth-of-type(2) div p {
   color: wheat;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
   padding: 40px;
   font-family: "sans-serif", sans-serif;
 }
@@ -207,14 +210,14 @@
   min-height: -moz-fit-content;
   min-height: fit-content;
   background: #141a28;
-  border-bottom: 20px #363535 double;
+  border-bottom: 20px rgb(54, 53, 53) double;
 }
 .c section:last-child h1 {
   color: wheat;
   font-family: "Italianno", cursive;
 }
 .c section:last-child a {
-  color: white;
+  color: rgb(255, 255, 255);
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
 }
@@ -228,15 +231,15 @@
   z-index: 1;
 }
 .c section:last-child .d-up ul {
-  background: #434341 !important;
+  background: rgb(67, 67, 65) !important;
   border: 4px solid white;
 }
 .c section:last-child .d-up ul li a {
-  color: white !important;
+  color: rgb(255, 255, 255) !important;
 }
 .c section:last-child .d-up ul li a:hover {
   color: wheat;
-  background: #6a6a6a !important;
+  background: rgb(106, 106, 106) !important;
 }
 .c section:last-child .socialMedia a {
   cursor: default;
@@ -269,5 +272,10 @@
 
   .c section .about img {
     width: 75%;
+  }
+
+  .spaningit {
+    font-size: 12px;
+    color: rgb(255, 255, 255) !important;
   }
 }
