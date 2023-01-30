@@ -250,20 +250,16 @@
   .c section:nth-of-type(1) .nav2 a {
     font-size: 0.9rem;
   }
-
   .c section:nth-of-type(1) .nav2 button {
     font-size: 1rem;
     font-family: 300;
   }
-
   .c section .about img {
     width: 75%;
   }
-
   .discover {
     padding-bottom: 15%;
   }
-
   .c section:nth-of-type(3) {
     min-height: -webkit-fit-content;
     min-height: -moz-fit-content;
@@ -278,7 +274,6 @@
     -ms-scroll-snap-type: y mandatory;
         scroll-snap-type: y mandatory;
   }
-
   section {
     scroll-behavior: smooth;
     scroll-snap-align: end;

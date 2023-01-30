@@ -2,6 +2,7 @@
   h1 {
     font-size: clamp(2rem, 10vw, 3.3rem);
   }
+
   // scroll-snap-type: y mandatory;
   overflow-x: hidden;
   overflow-y: scroll;
@@ -21,24 +22,28 @@
       transform: translate(-50%, -50%);
       text-align: center;
       align-items: center;
+
       p {
         font-family: "Italianno", cursive;
         font-size: 4.4vmin;
         width: 50%;
         color: white;
       }
+
       img {
         width: 50%;
         max-width: 700px;
         border: 3px rgb(255, 255, 255) solid;
       }
     }
+
     @media (max-width: 767.98px) {
       .se2 {
         p {
           font-size: 7vmin;
           width: 80%;
         }
+
         img {
           width: 80%;
         }
@@ -57,8 +62,10 @@
           font-weight: 500;
         }
       }
+
       .nav2 {
         background: rgba(255, 255, 255, 0.171);
+
         a {
           color: #fff;
           text-transform: uppercase;
@@ -69,10 +76,12 @@
           display: inline-block;
           padding: 15px 20px;
           position: relative;
+
           &:hover {
             color: wheat;
           }
         }
+
         a:after {
           background: none repeat scroll 0 0 transparent;
           bottom: 0;
@@ -85,22 +94,27 @@
           transition: width 0.3s ease 0s, left 0.3s ease 0s;
           width: 0;
         }
+
         a:hover:after {
           width: 100%;
           left: 0;
         }
+
         button {
           letter-spacing: 0.1em;
           color: white;
           font-size: 1.3rem;
           font-weight: 300;
+
           &:hover {
             color: wheat;
           }
         }
+
         ul {
           a {
             color: black;
+
             &:hover {
               color: rgb(0, 0, 0);
               background: gray;
@@ -108,6 +122,7 @@
           }
         }
       }
+
       .discover {
         a {
           text-decoration: none;
@@ -140,10 +155,12 @@
         position: absolute;
       }
     }
+
     &:nth-of-type(2) {
       background: rgb(29, 29, 28);
       background-color: #262f44;
       color: rgb(255, 255, 255);
+
       p {
         span {
           color: wheat;
@@ -161,37 +178,44 @@
         color: wheat;
         font-family: "Italianno", cursive;
       }
+
       .bcc {
         width: 50%;
       }
+
       .sheshz {
         padding-top: 10vh;
 
         align-items: center;
         text-align: center;
       }
+
       .sheimg {
         img {
           width: 100%;
           height: 60vh;
         }
       }
+
       @media (max-width: 501px) {
         .bcc {
           width: 100%;
           padding-bottom: 50px;
+
           img {
             width: 100%;
             height: 200px;
           }
         }
       }
+
       .carousel-item {
         img {
           border: 2px rgb(255, 255, 255) solid;
         }
       }
     }
+
     &:last-child {
       height: fit-content;
       background: #000000;
@@ -202,19 +226,24 @@
         color: wheat;
         font-family: "Italianno", cursive;
       }
+
       a {
         color: rgb(255, 255, 255);
         font-family: Arial, Helvetica, sans-serif;
         text-decoration: none;
+
         &:hover {
           color: wheat;
         }
       }
+
       p {
         color: white;
       }
+
       .d-up {
         z-index: 1;
+
         ul {
           background: rgb(67, 67, 65) !important;
           border: 4px solid white;
@@ -222,6 +251,7 @@
           li {
             a {
               color: rgb(255, 255, 255) !important;
+
               &:hover {
                 color: wheat;
                 background: rgb(106, 106, 106) !important;
@@ -230,15 +260,19 @@
           }
         }
       }
+
       .socialMedia {
         a {
           cursor: default;
+
           &:hover {
             color: white;
           }
+
           i {
             font-size: 32px;
             cursor: pointer;
+
             &:hover {
               color: wheat;
             }
@@ -246,18 +280,22 @@
         }
       }
     }
+
     @media (max-width: 300.98px) {
       .se2 {
         span {
           font-size: 3rem !important;
         }
+
         p {
           font-size: 2rem;
         }
+
         img {
           width: 100%;
         }
       }
+
       &:nth-of-type(3) {
         background-color: rgb(15, 15, 13);
       }
@@ -269,27 +307,34 @@
   .c section:nth-of-type(1) .nav2 a {
     font-size: 0.9rem;
   }
+
   .c section:nth-of-type(1) .nav2 button {
     font-size: 1rem;
     font-family: 300;
   }
+
   .c section .about img {
     width: 75%;
   }
+
   .discover {
     padding-bottom: 15%;
   }
+
   .c section:nth-of-type(3) {
     min-height: fit-content;
+
     h1 {
       font-size: 52px;
     }
   }
 }
+
 @media (min-width: 767.98px) {
   .c {
     scroll-snap-type: y mandatory;
   }
+
   section {
     scroll-behavior: smooth;
     scroll-snap-align: end;
