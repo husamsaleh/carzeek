@@ -1,12 +1,16 @@
 .c {
+
+  overflow-x: hidden;
+  overflow-y: scroll;
+  height: 100vh;
+
   h1 {
     font-size: clamp(2rem, 10vw, 3.3rem);
   }
 
-  // scroll-snap-type: y mandatory;
-  overflow-x: hidden;
-  overflow-y: scroll;
-  height: 100vh;
+
+
+
 
   section {
     min-height: 100vh;
